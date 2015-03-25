@@ -1,0 +1,38 @@
+rocket-archive-keyring (0.1) alchemist-beta; urgency=medium
+
+  * New package with Stephenson's Rocket key
+
+ -- Jo Shields <directhex@apebox.org>  Wed, 25 Mar 2015 19:04:26 +0000
+
+valve-archive-keyring (0.5) alchemist; urgency=low
+
+  * update copyright
+
+ -- John Vert <johnv@valvesoftware.com>  Tue, 19 Nov 2013 11:22:31 -0800
+
+valve-archive-keyring (0.4) precise; urgency=low
+
+  * Add steamos@steampowered.com public key
+  * Add README
+  * Also install keys to /usr/share/keyrings
+
+ -- John Vert <johnv@valvesoftware.com>  Mon, 04 Nov 2013 17:02:04 -0800
+
+valve-archive-keyring (0.3) alchemist; urgency=low
+
+  * Fix description to refer to SteamOS
+
+ -- John Vert <johnv@valvesoftware.com>  Mon, 21 Oct 2013 11:48:45 -0700
+
+valve-archive-keyring (0.2) alchemist; urgency=low
+
+  * Add linux@steampowered.com public key
+
+ -- Valve Corporation <linux@steampowered.com>  Sat, 12 Oct 2013 12:13:35 -0700
+
+valve-archive-keyring (0.1) unstable; urgency=low
+
+  * Initial release
+
+ -- Sjoerd Simons <sjoerd.simons@collabora.co.uk>  Wed, 15 May 2013 19:30:38 -0700
+

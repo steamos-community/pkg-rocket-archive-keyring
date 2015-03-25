@@ -1,0 +1,2 @@
+rocket-archive-keyring.gpg etc/apt/trusted.gpg.d
+rocket-archive-keyring.gpg usr/share/keyrings

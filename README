@@ -1,0 +1,23 @@
+README for the rocket-archive-keyring package
+=============================================
+
+Introduction
+------------
+
+The Stephenson's Rocket project signs its Release files that are 
+stored on the Stephenson's Rocket repository and its mirrors with 
+the keys contained in this package.
+
+A quick overview about this package:
+
+* Each actively used key is placed in /etc/apt/trusted.gpg.d/ to
+  be used by "apt" and its apt-key command in versions 0.6 and later.
+  The signatures of acquired Release files are checked against this
+  key database. It hence contains all keys of all releases that
+  are still supported and need to be active.
+* /usr/share/keyrings/rocket-archive-keyring.gpg:
+  A keyring including all actively used keys to sign Release files in
+  our supported releases is shipped in /usr/share/keyrings.
+
+More information about the archive authentication feature can be found
+in the manpage apt-secure(8).
